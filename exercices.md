@@ -4,4 +4,11 @@ $ echo 'goodbye'
 goodbye
 $ echo "goodbye"
 goodbye
-
+$ echo hello, goodbye
+hello, goodbye
+$ echo "hello, goodbye"
+hello, goodbye
+$ echo "hello, goodbye'
+>
+>"
+$
