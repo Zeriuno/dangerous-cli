@@ -11,4 +11,8 @@ hello, goodbye
 $ echo "hello, goodbye'
 >
 >"
-$
+$ echo '"hello, goodbye"'
+"hello, goodbye"
+$ echo 'hello, goodbye
+> ^C
+$ 
