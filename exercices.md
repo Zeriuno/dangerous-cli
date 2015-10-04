@@ -32,4 +32,11 @@ Upper arro
 $ echo foe
 $ echo fum
 
-1.4.2
+1.5-1
+$ clear
+1.5.2
+
+ctrl Maiuscola T
+$ echo 'hello'
+hello
+$ exit
