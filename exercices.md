@@ -20,3 +20,16 @@ $
 1.3.2
 $ echo -n hello
 
+1.4.1
+
+$ echo fee
+fee
+
+Upper arrow, back one
+
+$ echo fie
+Upper arro
+$ echo foe
+$ echo fum
+
+1.4.2
