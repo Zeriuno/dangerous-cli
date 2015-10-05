@@ -40,3 +40,9 @@ ctrl Maiuscola T
 $ echo 'hello'
 hello
 $ exit
+
+1.6.1
+$ echo '"man echo"'
+"man echo"
+1.6.2
+$ sleep 5
