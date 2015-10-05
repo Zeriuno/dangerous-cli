@@ -50,3 +50,13 @@ $ sleep 5000
 ctrl C
 $ sleep 5 && echo "Back on!"
 Back on!
+
+2.1
+
+$ echo "From fairest creatures we desire increase" > sonnet_1.txt
+$ echo "That thereby beuty's Rose might never die," >> sonnet_1.txt
+
+$ echo "From faires creatures we desire increase" > sonnet_1_lower_case.txt
+$ echo "That thereby beauty's rose might never die," >> sonnet_1_lower_case
+
+$ diff sonnet_1.txt sonnet_1_lower_case.txt
