@@ -57,6 +57,22 @@ $ echo "From fairest creatures we desire increase" > sonnet_1.txt
 $ echo "That thereby beuty's Rose might never die," >> sonnet_1.txt
 
 $ echo "From faires creatures we desire increase" > sonnet_1_lower_case.txt
-$ echo "That thereby beauty's rose might never die," >> sonnet_1_lower_case
+$ echo "That thereby beauty's rose might never die," >> sonnet_1_lower_case.txt
 
 $ diff sonnet_1.txt sonnet_1_lower_case.txt
+
+
+2.1.1
+
+$ echo "From faires creatures we desire increase" > line_1.txt
+$ echo "That thereby beauty's rose might never die," >> line_2.txt
+
+2.1.2
+
+$ cat line_1.txt > line_1_2.txt
+$ cat line_2.txt >> line_1_2.txt
+$ diff line_1_2.txt sonnet_1_lower_case.txt
+
+2.1.3
+
+$ cat line_2.txt line_1.txt > sonnet_1_reversed.txt
