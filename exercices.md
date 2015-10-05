@@ -46,3 +46,7 @@ $ echo '"man echo"'
 "man echo"
 1.6.2
 $ sleep 5
+$ sleep 5000
+ctrl C
+$ sleep 5 && echo "Back on!"
+Back on!
