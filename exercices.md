@@ -105,3 +105,14 @@ $ cat foo.txt > baz.txt
 2.3.3
 $ cat foo.txt bar.txt > quux.txt
 4. rm -f doesn't return the error message
+
+2.4
+2.4.1
+2.4.2
+$ touch foo
+$ move foo bar
+$ cp bar baz
+2.4.3
+$ ls b*
+2.4.4
+$ rm ba*
