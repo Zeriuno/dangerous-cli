@@ -51,6 +51,7 @@ ctrl C
 $ sleep 5 && echo "Back on!"
 Back on!
 
+
 2.1
 
 $ echo "From fairest creatures we desire increase" > sonnet_1.txt
@@ -67,12 +68,30 @@ $ diff sonnet_1.txt sonnet_1_lower_case.txt
 $ echo "From faires creatures we desire increase" > line_1.txt
 $ echo "That thereby beauty's rose might never die," >> line_2.txt
 
+
 2.1.2
 
 $ cat line_1.txt > line_1_2.txt
 $ cat line_2.txt >> line_1_2.txt
 $ diff line_1_2.txt sonnet_1_lower_case.txt
 
+
 2.1.3
 
 $ cat line_2.txt line_1.txt > sonnet_1_reversed.txt
+
+
+2.2
+$ ls -rtl
+#reversed time of modification long form
+$ echo "*.txt" > .gitignore
+
+2.2.1
+$ ls s*
+2.2.2
+$ ls -rtl *onnet*
+2.2.3
+$ ls -artl
+
+
+2.3
