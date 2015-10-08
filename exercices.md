@@ -15,7 +15,7 @@ $ echo '"hello, goodbye"'
 "hello, goodbye"
 $ echo 'hello, goodbye
 > ^C
-$ 
+$
 
 1.3.2
 $ echo -n hello
@@ -95,3 +95,13 @@ $ ls -artl
 
 
 2.3
+mv,cp,rm
+2.3.1
+$ echo "hello, world" > foo.txt
+$ cp foo.txt bar.txt
+$ diff foo.txt bar.txt
+2.3.2
+$ cat foo.txt > baz.txt
+2.3.3
+$ cat foo.txt bar.txt > quux.txt
+4. rm -f doesn't return the error message
