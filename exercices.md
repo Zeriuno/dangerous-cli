@@ -165,3 +165,9 @@ CF-RAY: 2332aae6d3de08fc-CDG
 $ ls -rtl
 sonnets is 95635
 3.1.3
+$ ls -hl
+3.1.4
+$ ls -hartl
+
+3.2
+$
