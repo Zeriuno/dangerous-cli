@@ -170,4 +170,11 @@ $ ls -hl
 $ ls -hartl
 
 3.2
-$
+$ head sonnets.txt
+[...]
+$ tail !$
+[...]
+$ wc sonnets.txt
+$ head !$ | wc
+#When piping to wc, the file name isn't showed in the output.
+| works when the program can take stdin as input
