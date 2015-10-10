@@ -130,3 +130,38 @@ $ cp bar baz
 $ ls b*
 2.4.4
 $ rm ba*
+
+3.1
+$ echo foo
+foo
+$ ls
+[...]
+$ !!
+ls
+[...]
+$ !echo
+echo foo
+foo
+3.1.1
+$ curl -I www.learnenough.com
+HTTP/1.1 200 OK
+Date: Sat, 10 Oct 2015 13:28:18 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Set-Cookie: __cfduid=dc49abef1bf6c50a2379ba290a48eaf341444483697; expires=Sun, 09-Oct-16 13:28:17 GMT; path=/; domain=.learnenough.com; HttpOnly
+Status: 200 OK
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Etag: W/"af0958373195e283b4ec8ca69a407e1a"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 04d630df-46f7-4c37-8953-ea05d223fd2e
+X-Runtime: 0.249633
+Via: 1.1 vegur
+Server: cloudflare-nginx
+CF-RAY: 2332aae6d3de08fc-CDG
+
+3.1.2
+$ ls -rtl
+sonnets is 95635
+3.1.3
