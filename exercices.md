@@ -185,3 +185,9 @@ $ head -n 1 sonnets.txt
 $ head -n 2620 sonnets.txt
 $ tail -n 20 sonnets.txt
 $ tail -n 2620 sonnets.txt
+3.2.2
+$ head -n 18 sonnets.txt
+3.2.3
+$ head -n 18 sonnets.txt | tail -n 14
+3.2.4
+$ tail -f leanrenough
