@@ -178,3 +178,10 @@ $ wc sonnets.txt
 $ head !$ | wc
 #When piping to wc, the file name isn't showed in the output.
 | works when the program can take stdin as input
+3.2.1
+$ tail sonnets.txt | wc
+$ man head
+$ head -n 1 sonnets.txt
+$ head -n 2620 sonnets.txt
+$ tail -n 20 sonnets.txt
+$ tail -n 2620 sonnets.txt
