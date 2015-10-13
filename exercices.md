@@ -190,4 +190,22 @@ $ head -n 18 sonnets.txt
 3.2.3
 $ head -n 18 sonnets.txt | tail -n 14
 3.2.4
-$ tail -f leanrenough
+$ tail -f learnenough
+
+3.3.1
+$ less sonnets.txt
+ctrl F / Space
+ctrl B
+G and 1G do not work on my machine
+
+3.3.2
+/All[return]
+n
+[...]
+N
+[...]
+-10-
+3.3.3
+$ less sonnets.txt
+/Let me not[return]
+n
