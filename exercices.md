@@ -196,7 +196,10 @@ $ tail -f learnenough
 $ less sonnets.txt
 ctrl F / Space
 ctrl B
-G and 1G do not work on my machine
+g -> go to beginning
+<NUMBER>G go to line <NUMBER>
+$ less -N sonnets.txt
+-> less shows line numbers.
 
 3.3.2
 /All[return]
