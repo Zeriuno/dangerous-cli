@@ -209,3 +209,7 @@ N
 $ less sonnets.txt
 /Let me not[return]
 n
+3.3.4
+$ man ls
+/sort
+$ ls -rS
