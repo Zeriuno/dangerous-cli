@@ -231,3 +231,12 @@ $ man grep
 n
 $ grep -n rose sonnets.txt
 $ grep -ni rose sonnets.txt
+3.4.2
+$ grep -ni rose sonnets.txt
+$ less sonnets.txt
+2203G
+3.4.3
+$ grep -ni rose sonnets.txt | head -n 1
+3.4.4
+$ grep Rose sonnets.txt | wc
+-> 3 lines
