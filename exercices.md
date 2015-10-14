@@ -213,3 +213,18 @@ n
 $ man ls
 /sort
 $ ls -rS
+
+3.4
+$ man grep
+/case
+$ grep -i rose sonnets.txt | wc
+$ ps aux
+$ ps aux | grep flash
+$ kill -9 $pid
+$ kill -9 -f $name
+3.4.1
+$ man grep
+/line number
+n
+$ grep -n rose sonnets.txt
+$ grep -ni rose sonnets.txt
