@@ -240,3 +240,9 @@ $ grep -ni rose sonnets.txt | head -n 1
 3.4.4
 $ grep Rose sonnets.txt | wc
 -> 3 lines
+
+3.5.1
+$ history | less
+-> ls
+$ history | wc
+1026
