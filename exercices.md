@@ -246,3 +246,14 @@ $ history | less
 -> ls
 $ history | wc
 1026
+$ history | grep curl
+2047 curl -OL https://cdn.learnenough.com/sonnets.txt
+2029 curl -I www.learnenough.com
+2119 history | grep curl
+$ !2113
+git add exercices.md
+$ curl -h | less
+-0 --http1.0 Use HTTP 1.0 (H)
+   --http1.1 Use HTTP 1.1 (H)
+   --http2.0 Use HTTP 2.0 (H)
+-L --location Follow redirects (H)
