@@ -257,3 +257,12 @@ $ curl -h | less
    --http1.1 Use HTTP 1.1 (H)
    --http2.0 Use HTTP 2.0 (H)
 -L --location Follow redirects (H)
+
+4.1.1
+User's home directory, then foo and then bar
+4.1.2
+~ = /Users/bill
+username = bill
+deepest = sonnets
+4.1.3
+~/sonnets is shorter, otherwise the same.
