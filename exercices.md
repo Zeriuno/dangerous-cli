@@ -266,3 +266,11 @@ username = bill
 deepest = sonnets
 4.1.3
 ~/sonnets is shorter, otherwise the same.
+
+4.2
+$ mkdir text_files
+$ mv *.txt text_files/
+4.2.2
+$ mkdir -p ~/foo/bar
+4.2.3
+$ ls | grep o
