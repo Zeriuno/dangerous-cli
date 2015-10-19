@@ -274,3 +274,19 @@ $ mv *.txt text_files/
 $ mkdir -p ~/foo/bar
 4.2.3
 $ ls | grep o
+
+4.3
+$ cd
+=> cd ~
+4.3.1
+No, they don't.
+4.3.2
+$ cd ..
+4.3.3
+$ mkdir -p text_directory/nil
+$ mkdir -p ~/text_directory/nil
+$ mkdir text_directory && cd !$ && mkdir nil
+4.3.4
+$ rm -rf text_directory/nil
+$ rm -rf ~/text_directory/nil
+$ rm -rf nil
