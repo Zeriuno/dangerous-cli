@@ -309,3 +309,7 @@ $ rm -rf foo
 $ mkdir foo && cd foo && echo "baz" > bar && cat bar && cd
 4.5.2
 If you created foo into the ~ the first time, I guess the command would stop there, since another foo can't be created in the same position.
+4.5.3
+Because `rm -rf /` removes everything from the root onwards. `rm -rf ./` is, on the contrary, good practice.
+4.5.4
+`sudo rm -rf /`
