@@ -290,3 +290,17 @@ $ mkdir text_directory && cd !$ && mkdir nil
 $ rm -rf text_directory/nil
 $ rm -rf ~/text_directory/nil
 $ rm -rf nil
+
+4.4.1
+$ mkdir -p foo/bar && mv foo/bar foo/baz
+4.4.2
+$ cp text_files foo/
+cp: omitting directory ‘text_files’
+$ cp -r text_files foo/
+$ ls foo/
+foo:
+baz text_files
+4.4.3
+$ cp text_files/* foo/
+4.4.4
+$ rm -rf foo
