@@ -304,3 +304,8 @@ baz text_files
 $ cp text_files/* foo/
 4.4.4
 $ rm -rf foo
+
+4.5.1
+$ mkdir foo && cd foo && echo "baz" > bar && cat bar && cd
+4.5.2
+If you created foo into the ~ the first time, I guess the command would stop there, since another foo can't be created in the same position.
