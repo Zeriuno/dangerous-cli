@@ -313,3 +313,11 @@ If you created foo into the ~ the first time, I guess the command would stop the
 Because `rm -rf /` removes everything from the root onwards. `rm -rf ./` is, on the contrary, good practice.
 4.5.4
 `sudo rm -rf /`
+
+----------------
+--- FINISHED ---
+---   !!!    ---
+---    !     ---
+---   YAY    ---
+--- !!!!!!!! ---
+----------------
